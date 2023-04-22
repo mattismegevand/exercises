@@ -1,0 +1,23 @@
+# exercises
+
+- [Advent of Code](https://adventofcode.com)
+- ai
+    - Deep Learning
+        - [Autoencoder](ai/dl/autoencoder.ipynb)
+        - [Embedding](ai/dl/embedding.ipynb)
+        - [Generative adversarial networks (GAN)](ai/dl/gan.ipynb)
+        - [Knowledge distillation](ai/dl/knowledge_distillation.ipynb)
+        - [MNIST from scratch](ai/dl/mnist.ipynb)
+        - [N-gram](ai/dl/ngram.ipynb)
+        - [Super Resolution GAN (SRGAN)](ai/dl/srgan.ipynb)
+        - [Variational Autoencoder (VAE)](ai/dl/vae.ipynb)
+        - [Vector Quantized Variational Autoencoder (VQ-VAE) ](ai/dl/vq-vae.ipynb)
+        - SDXL finetuning:
+            - [Gustave Doré](https://replicate.com/mattismegevand/sdxl-gustavedore)
+            - [MS Paint](https://replicate.com/mattismegevand/sdxl-mspaint)
+    - Classical ML from scratch
+        - [KNN](ai/classic/knn.ipynb)
+        - [Linear Regression](ai/classic/linear_regression.ipynb)
+        - [Logistic Regression](ai/classic/logistic_regression.ipynb)
+- [C (K&R)](https://en.wikipedia.org/wiki/The_C_Programming_Language)
+- [Project Euler](https://projecteuler.net)
