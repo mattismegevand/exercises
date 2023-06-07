@@ -1,12 +1,8 @@
 #!/usr/bin/env python
 
-def fibbonaci_sequence():
-  a, b = 1, 1
-  while True:
-    yield a
-    a, b = b, a + b
+from itertools import permutations
 
-for i, n in enumerate(fibbonaci_sequence()):
-  if len(str(n)) >= 1000:
-    print(i + 1)
+for i, p in enumerate(permutations('0123456789')):
+  if i + 1 == 1000000:
+    print("".join(p))
     break
