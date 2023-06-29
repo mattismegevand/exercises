@@ -3,8 +3,8 @@
 from math import sqrt
 
 def is_pentagonal(n):
-    x = sqrt(24 * n + 1)
-    return x % 6 == 5
+  x = sqrt(24 * n + 1)
+  return x % 6 == 5
 
 pentagonals = set()
 for i in range(1, 25000000):
