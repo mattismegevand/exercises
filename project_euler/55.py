@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-from functools import cache
-
 def is_palindrome(n):
   return str(n) == str(n)[::-1]
 
