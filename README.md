@@ -5,9 +5,10 @@
 
 # ai
 
-- Text
-  - [Embedding](ai/embedding.ipynb)
-  - [N-Gram](ai/ngram.ipynb)
-- Image
-  - [Autoencoder](ai/autoencoder.ipynb)
-  - [GAN](ai/gan.ipynb)
+- [Autoencoder](ai/autoencoder.ipynb)
+- [Embedding](ai/embedding.ipynb)
+- [Generative adversarial networks (GAN)](ai/gan.ipynb)
+- [Knowledge distillation](ai/knowledge_distillation.ipynb)
+- [N-gram](ai/ngram.ipynb)
+- [Super Resolution GAN (SRGAN)](ai/srgan.ipynb)
+- [Variational Autoencoder (VAE)](ai/vae.ipynb)
