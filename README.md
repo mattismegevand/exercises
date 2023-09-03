@@ -13,4 +13,7 @@
 - [N-gram](ai/ngram.ipynb)
 - [Super Resolution GAN (SRGAN)](ai/srgan.ipynb)
 - [Variational Autoencoder (VAE)](ai/vae.ipynb)
-- [SDXL finetuning](https://replicate.com/mattismegevand/sdxl-gustavedore)
+- SDXL finetuning:
+    - [Gustave Doré](https://replicate.com/mattismegevand/sdxl-gustavedore)
+    - [MS Paint](https://replicate.com/mattismegevand/sdxl-mspaint)
+
