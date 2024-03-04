@@ -2,18 +2,19 @@
 
 - [Advent of Code](https://adventofcode.com)
 - [Project Euler](https://projecteuler.net)
-
-# ai
-
-- [Autoencoder](ai/autoencoder.ipynb)
-- [Embedding](ai/embedding.ipynb)
-- [Generative adversarial networks (GAN)](ai/gan.ipynb)
-- [Knowledge distillation](ai/knowledge_distillation.ipynb)
-- [MNIST from scratch](ai/mnist.ipynb)
-- [N-gram](ai/ngram.ipynb)
-- [Super Resolution GAN (SRGAN)](ai/srgan.ipynb)
-- [Variational Autoencoder (VAE)](ai/vae.ipynb)
-- SDXL finetuning:
-    - [Gustave Doré](https://replicate.com/mattismegevand/sdxl-gustavedore)
-    - [MS Paint](https://replicate.com/mattismegevand/sdxl-mspaint)
-
+- ai
+    - Deep Learning
+        - [Autoencoder](ai/dl/autoencoder.ipynb)
+        - [Embedding](ai/dl/embedding.ipynb)
+        - [Generative adversarial networks (GAN)](ai/dl/gan.ipynb)
+        - [Knowledge distillation](ai/dl/knowledge_distillation.ipynb)
+        - [MNIST from scratch](ai/dl/mnist.ipynb)
+        - [N-gram](ai/dl/ngram.ipynb)
+        - [Super Resolution GAN (SRGAN)](ai/dl/srgan.ipynb)
+        - [Variational Autoencoder (VAE)](ai/dl/vae.ipynb)
+        - [Vector Quantized Variational Autoencoder (VQ-VAE) ](ai/dl/vq-vae.ipynb)
+        - SDXL finetuning:
+            - [Gustave Doré](https://replicate.com/mattismegevand/sdxl-gustavedore)
+            - [MS Paint](https://replicate.com/mattismegevand/sdxl-mspaint)
+    - Classical ML from scratch
+        - [KNN](ai/classic/knn.ipynb)
