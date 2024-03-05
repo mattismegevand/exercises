@@ -18,3 +18,4 @@
             - [MS Paint](https://replicate.com/mattismegevand/sdxl-mspaint)
     - Classical ML from scratch
         - [KNN](ai/classic/knn.ipynb)
+        - [Linear Regression](ai/classic/linear_regression.ipynb)
