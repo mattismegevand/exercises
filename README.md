@@ -19,3 +19,4 @@
     - Classical ML from scratch
         - [KNN](ai/classic/knn.ipynb)
         - [Linear Regression](ai/classic/linear_regression.ipynb)
+        - [Logistic Regression](ai/classic/logistic_regression.ipynb)
