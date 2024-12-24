@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 a, b = [], []
 for l in open('1.in', 'r').read().splitlines():
     aa, bb = [int(t) for t in l.split()]
