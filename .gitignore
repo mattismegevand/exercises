@@ -2,3 +2,12 @@ a.out
 
 .ipynb_checkpoints/
 data/
+
+# ziglings
+zig/ziglings/.zig-cache/
+zig/ziglings/zig-out/
+zig/ziglings/answers/
+zig/ziglings/patches/healed/
+zig/ziglings/output/
+zig/ziglings/.progress.txt
+zig/ziglings/zig-cache/
