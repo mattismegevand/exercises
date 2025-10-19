@@ -1,8 +1,8 @@
 ## Arrays & Hashing
-- [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
-- [ ] [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
-- [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
-- [ ] [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+- [x] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+- [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+- [x] [Two Sum](https://leetcode.com/problems/two-sum/)
+- [x] [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 - [ ] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 - [ ] [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)
 - [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
@@ -176,8 +176,8 @@
 - [ ] [Detect Squares](https://leetcode.com/problems/detect-squares/)
 
 ## Bit Manipulation
-- [ ] [Single Number](https://leetcode.com/problems/single-number/)
-- [ ] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
+- [x] [Single Number](https://leetcode.com/problems/single-number/)
+- [x] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 - [ ] [Counting Bits](https://leetcode.com/problems/counting-bits/)
 - [ ] [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 - [ ] [Missing Number](https://leetcode.com/problems/missing-number/)
