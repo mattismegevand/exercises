@@ -39,20 +39,13 @@ def softmax_loss_naive(W, X, y, reg):
         logp = np.log(p)
 
         loss -= logp[y[i]]  # negative log probability is the loss
-
-
+        for j in range(num_classes):
+          dW[:, j] += X[i] * (p[j] - (j == y[i]))
+  
     # normalized hinge loss plus regularization
     loss = loss / num_train + reg * np.sum(W * W)
-
-    #############################################################################
-    # TODO:                                                                     #
-    # Compute the gradient of the loss function and store it dW.                #
-    # Rather that first computing the loss and then computing the derivative,   #
-    # it may be simpler to compute the derivative at the same time that the     #
-    # loss is being computed. As a result you may need to modify some of the    #
-    # code above to compute the gradient.                                       #
-    #############################################################################
-
+    dW /= num_train
+    dW += 2 * reg * W
 
     return loss, dW
 
@@ -67,23 +60,19 @@ def softmax_loss_vectorized(W, X, y, reg):
     loss = 0.0
     dW = np.zeros_like(W)
 
+    N = X.shape[0]
 
-    #############################################################################
-    # TODO:                                                                     #
-    # Implement a vectorized version of the softmax loss, storing the           #
-    # result in loss.                                                           #
-    #############################################################################
+    scores = X.dot(W)
+    scores -= np.reshape(np.max(scores, axis=1), (-1, 1))
+    p = np.exp(scores)
+    p /= p.sum(axis=1, keepdims=True)
+    loss = -np.log(p[np.arange(N), y])
+    loss = loss.mean() + reg * np.sum(W*W)
 
+    dscores = p.copy()
+    dscores[np.arange(N), y] -= 1
+    dscores /= N
 
-    #############################################################################
-    # TODO:                                                                     #
-    # Implement a vectorized version of the gradient for the softmax            #
-    # loss, storing the result in dW.                                           #
-    #                                                                           #
-    # Hint: Instead of computing the gradient from scratch, it may be easier    #
-    # to reuse some of the intermediate values that you used to compute the     #
-    # loss.                                                                     #
-    #############################################################################
-
+    dW = X.T @ dscores + 2 * reg * W
 
     return loss, dW

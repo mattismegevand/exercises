@@ -50,6 +50,7 @@ outputs/
 checkpoints/
 runs/
 wandb/
+*.npy
 
 #############################################
 # Builds and distributions
